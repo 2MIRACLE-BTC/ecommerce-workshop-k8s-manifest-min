@@ -12,6 +12,6 @@ images:
   newTag: ad98c2e0
 - name: 241825837502.dkr.ecr.ap-northeast-2.amazonaws.com/frontend
   newName: 241825837502.dkr.ecr.ap-northeast-2.amazonaws.com/frontend
-  newTag: 559a2a63
+  newTag: 94da0ada
 resources:
 - ../../base
