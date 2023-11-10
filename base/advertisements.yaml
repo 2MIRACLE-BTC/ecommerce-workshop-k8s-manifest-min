@@ -6,6 +6,7 @@ metadata:
     tags.datadoghq.com/service: advertisements
     app: ecommerce
   name: advertisements
+  namespace: ecommerce
 spec:
   replicas: 1
   selector:
@@ -71,6 +72,7 @@ metadata:
     tags.datadoghq.com/env: development
     app: ecommerce
   name: advertisements
+  namespace: ecommerce
 spec:
   ports:
   - port: 5002

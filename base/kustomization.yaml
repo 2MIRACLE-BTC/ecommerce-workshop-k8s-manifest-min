@@ -5,3 +5,5 @@ resources:
   - db.yaml
   - discounts.yaml
   - advertisements.yaml
+  - ingress.yaml
+  - namespace.yaml
