@@ -69,9 +69,9 @@ spec:
         # - name: DD_APPLICATION_ID
         #   value: <your_application_id>
         image: 241825837502.dkr.ecr.ap-northeast-2.amazonaws.com/frontend:b2bf490c
-        envFrom:                                                                                                    │
-│         - secretRef:                                                                                                │
-│             name: mir-secret   
+        envFrom:                                                                                                    
+        - secretRef:                                                                                                
+            name: mir-secret   
         imagePullPolicy: Always
         name: ecommerce-spree-observability
         ports:
