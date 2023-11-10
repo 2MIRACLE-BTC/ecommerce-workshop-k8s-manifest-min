@@ -118,6 +118,7 @@ spec:
   # Change this value to LoadBalancer for better public ingress routing to this
   # pod on most k8s platforms.
   type: LoadBalancer
+  sessionAffinity: ClientIP
 
 ---
 apiVersion: v1
@@ -143,3 +144,4 @@ spec:
   # Change this value to LoadBalancer for better public ingress routing to this
   # pod on most k8s platforms.
   type: LoadBalancer
+  sessionAffinity: ClientIP
