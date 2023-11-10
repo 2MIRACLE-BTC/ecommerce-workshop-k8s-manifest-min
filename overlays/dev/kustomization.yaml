@@ -12,8 +12,6 @@ images:
   newTag: ad98c2e0
 - name: 241825837502.dkr.ecr.ap-northeast-2.amazonaws.com/frontend
   newName: 241825837502.dkr.ecr.ap-northeast-2.amazonaws.com/frontend
-  newTag: b2bf490c
+  newTag: 559a2a63
 resources:
 - ../../base
-# patchesStrategicMerge:
-# - front-patch.yaml
