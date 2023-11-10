@@ -15,5 +15,5 @@ images:
   newTag: b2bf490c
 resources:
 - ../../base
-patchesStrategicMerge:
-- front-patch.yaml
+# patchesStrategicMerge:
+# - front-patch.yaml
