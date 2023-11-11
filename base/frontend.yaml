@@ -121,7 +121,7 @@ metadata:
   namespace: ecommerce
 spec:
   replicas: 2
-  revisionHistoryLimit: 2
+  revisionHistoryLimit: 3
   selector:
     matchLabels:
       tags.datadoghq.com/service: storefront
