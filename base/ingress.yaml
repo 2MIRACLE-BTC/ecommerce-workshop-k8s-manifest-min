@@ -16,6 +16,6 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: frontend
+            name: frontend-rollout-bluegreen-active
             port:
               number: 80
