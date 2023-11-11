@@ -7,3 +7,4 @@ resources:
   - advertisements.yaml
   - namespace.yaml
   - ingress.yaml
+  - front-hpa.yaml
