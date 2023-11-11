@@ -6,3 +6,4 @@ resources:
   - discounts.yaml
   - advertisements.yaml
   - namespace.yaml
+  - ingress.yaml
