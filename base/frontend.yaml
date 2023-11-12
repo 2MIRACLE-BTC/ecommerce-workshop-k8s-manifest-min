@@ -201,13 +201,13 @@ spec:
         ports:
         - containerPort: 3000
           protocol: TCP
-        resources:
-          requests:
-            cpu: 1500m
-            memory: 9Gi
-          limits:
-            cpu: 2500m
-            memory: 12Gi
+        # resources:
+        #   requests:
+        #     cpu: m
+        #     memory: Gi
+        #   limits:
+        #     cpu: m
+        #     memory: Gi
 ---
 apiVersion: v1
 kind: Service
