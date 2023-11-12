@@ -79,9 +79,9 @@
 #           protocol: TCP
 #         resources:
 #           requests:
-#             cpu: 100m
-#             memory: 100Mi
-#           limits: {}
+#             cpu: 1500m
+#             memory: 9Gi
+#           limits: 
 
 # ---
 # apiVersion: v1
@@ -203,9 +203,11 @@ spec:
           protocol: TCP
         resources:
           requests:
-            cpu: 100m
-            memory: 100Mi
-          limits: {}
+            cpu: 1500m
+            memory: 9Gi
+          limits:
+            cpu: 2500m
+            memory: 12Gi
 ---
 apiVersion: v1
 kind: Service
