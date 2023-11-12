@@ -1,6 +1,9 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
+- name: 009543462659.dkr.ecr.ap-northeast-2.amazonaws.com/adv_1
+  newName: 009543462659.dkr.ecr.ap-northeast-2.amazonaws.com/adv_1
+  newTag: 9e0fabca
 - name: 009543462659.dkr.ecr.ap-northeast-2.amazonaws.com/frontend
   newName: 009543462659.dkr.ecr.ap-northeast-2.amazonaws.com/frontend
   newTag: fe9a7f2c
