@@ -27,5 +27,3 @@ images:
   newTag: f33513da
 resources:
 - ../../base
-patchesStrategicMerge:
-- front-patch.yaml
