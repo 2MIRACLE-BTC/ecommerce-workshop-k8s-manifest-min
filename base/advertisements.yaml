@@ -176,7 +176,7 @@ spec:
   - port: 5002
     protocol: TCP
     targetPort: 5002
-    nodePort: 30050
+    #nodePort: 30050
   selector:
     tags.datadoghq.com/service: advertisements
     tags.datadoghq.com/env: development
@@ -198,7 +198,7 @@ spec:
   - port: 5002
     protocol: TCP
     targetPort: 5002
-    nodePort: 30050
+    #nodePort: 30050
   selector:
     tags.datadoghq.com/service: advertisements
     tags.datadoghq.com/env: development
