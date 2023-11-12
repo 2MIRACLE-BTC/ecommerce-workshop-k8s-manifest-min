@@ -7,6 +7,9 @@ images:
 - name: 009543462659.dkr.ecr.ap-northeast-2.amazonaws.com/adv_2
   newName: 009543462659.dkr.ecr.ap-northeast-2.amazonaws.com/adv_2
   newTag: eabd3d76
+- name: 009543462659.dkr.ecr.ap-northeast-2.amazonaws.com/discount
+  newName: 009543462659.dkr.ecr.ap-northeast-2.amazonaws.com/discount
+  newTag: d5ff7c09
 - name: 009543462659.dkr.ecr.ap-northeast-2.amazonaws.com/frontend
   newName: 009543462659.dkr.ecr.ap-northeast-2.amazonaws.com/frontend
   newTag: fe9a7f2c
