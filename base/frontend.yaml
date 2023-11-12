@@ -192,7 +192,7 @@ spec:
         #   value: <your_client_token>
         # - name: DD_APPLICATION_ID
         #   value: <your_application_id>
-        image: 241825837502.dkr.ecr.ap-northeast-2.amazonaws.com/frontend:b2bf490c
+        image: 241825837502.dkr.ecr.ap-northeast-2.amazonaws.com/frontend-new:latest
         envFrom:                                                                                                    
         - secretRef:                                                                                                
             name: mir-secret   
