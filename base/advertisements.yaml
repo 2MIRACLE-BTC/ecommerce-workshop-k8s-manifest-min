@@ -181,7 +181,7 @@ spec:
     tags.datadoghq.com/service: advertisements
     tags.datadoghq.com/env: development
     app: ecommerce
-  sessionAffinity: ClientIP
+  #sessionAffinity: ClientIP
 
 ---
 apiVersion: v1
@@ -203,6 +203,6 @@ spec:
     tags.datadoghq.com/service: advertisements
     tags.datadoghq.com/env: development
     app: ecommerce
-  sessionAffinity: ClientIP
+  #sessionAffinity: ClientIP
 
 
