@@ -105,7 +105,7 @@ spec:
   strategy: 
     blueGreen: 
       #activeService는 이전의 배포된 Blue 서비스
-      activeService: adv-rollout-bluegreen-active
+      activeService: advertisements
       
       #previewService는 새롭게 배포될 Green 서비스
       previewService: adv-rollout-bluegreen-preview
@@ -169,7 +169,7 @@ metadata:
     tags.datadoghq.com/service: advertisements
     tags.datadoghq.com/env: development
     app: ecommerce
-  name: adv-rollout-bluegreen-active
+  name: advertisements
   namespace: ecommerce
 spec:
   ports:
